@@ -1,0 +1,124 @@
+body {
+  background-color: #B692C2;
+  margin: 0px;
+  padding: 0px;
+
+}
+
+.scorePage {
+  text-align: center;
+  background-color: #E3A5C7;
+  border: 2px solid black;
+  padding: 40px;
+  border-radius: 15px;
+  margin-top: 100px;
+}
+
+.quiz {
+  margin: auto;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #E3A5C7;
+  width: 70%;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.quiz ul li {
+  display: flex;
+  align-items: center;
+  border: 1px solid #694F8E;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  background-color: #ece7e6;
+  width: 500px;
+}
+
+.quiz ul li.selected {
+  background-color: #694F8E;
+  color: white;
+}
+
+.quiz button {
+  padding: 10px;
+  width: 400px;
+  border-radius: 15px;
+  background-color: #E49BFF;
+  color: black;
+  border: 1px solid black;
+}
+
+.quiz button:hover {
+  background-color: aliceblue;
+  border: 2px solid plum;
+  cursor: pointer;
+}
+
+/* Responsive Design for Mobile (max-width: 478px) */
+@media (max-width: 478px) {
+  .scorePage {
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 14px;
+  }
+
+  .quiz {
+    margin-top: 20px;
+    padding: 10px;
+  }
+
+  .quiz ul li {
+    font-size: 14px;
+  }
+
+  .quiz ul {
+    padding: 0px 0px 0px 15px;
+    align-items: center;
+    width: 90%;
+  }
+
+  .quiz button {
+    width: 90%;
+    max-width: none;
+    font-size: 14px;
+    padding: 8px;
+  }
+}
+
+/* Responsive Design for max-width: 750px (Tablets) */
+@media (max-width: 768px) {
+  .scorePage {
+    padding: 30px;
+    margin-top: 50px;
+    font-size: 16px;
+  }
+
+  .quiz {
+    margin-top: 30px;
+    padding: 15px;
+  }
+
+  .quiz ul li {
+    font-size: 15px;
+    width: 90%;
+    padding: 10px;
+  }
+
+  .quiz ul {
+    padding: 10px 10px 10px 53px;
+    align-items: center;
+    width: 90%;
+    margin-right: 10%;
+  }
+
+  .quiz button {
+    width: 90%;
+    max-width: none;
+    font-size: 15px;
+    padding: 10px;
+  }
+}
