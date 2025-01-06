@@ -25,6 +25,14 @@
 - 🎨 **CSS** – For styling the application.  
 - ⏱️ **Timer Integration** – For tracking question timeouts.
 
+
+### 📌 **Instructions to Use the Code:**
+1. Copy the above code.
+2. Save it in a file named **`README.md`** in your project root folder.
+
+Let me know if you want any modifications! 😊
+
+
 ---
 
 ## 🛠️ **How to Run the Project**
